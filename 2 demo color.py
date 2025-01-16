@@ -8,6 +8,7 @@ tf_folder = os.path.join("image", "transform")
 imgname = "example1.jpg"
 img = os.path.join(resize_folder, imgname)
 
+
 """
 Calculate summary statistics of RGB channels.
 return_full (optional, default False): bool. If set to True, ten summary statistics will be returned. Otherwise only mean and standard deviation are returned.
